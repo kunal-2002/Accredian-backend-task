@@ -11,10 +11,10 @@ app.use(cors(), bodyParser.json());
 
 // MySQL Database Connection
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "4321",
-  database: "accredian_db",
+  host: "b6ykj5ymzb7zdbgdqjxm-mysql.services.clever-cloud.com",
+  user: "utd1yi25tlziis7z",
+  password: "KQhcRQHiTLImBqpRteGs",
+  database: "b6ykj5ymzb7zdbgdqjxm",
 });
 
 db.connect((err) => {
